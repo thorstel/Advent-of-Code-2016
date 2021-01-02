@@ -21,7 +21,6 @@ def solve(data):
             assert False
         direction %= 4
         dx, dy = offsets[direction]
-        n = int(cmd[1:])
         for _ in range(int(cmd[1:])):
             x += dx
             y += dy
